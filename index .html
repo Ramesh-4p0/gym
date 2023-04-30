@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    /*css reset*/
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym pics/back.jpg');
+    }
+
+    .left {
+        display: inline-block;
+         /*border: 2px solid red;*/ 
+        position: absolute;
+        left: 50px;
+        top: 20px;
+    }
+
+    .center {
+        display: block;
+        margin: 44px auto;
+        width: 50%;
+         /*border: 2px solid green;*/ 
+
+    }
+
+    .left img {
+        width: 134px;
+        filter: invert(100%);
+
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .right {
+        display: inline-block;
+        /*border: 2px solid yellow;*/ 
+        position: absolute;
+        right: 34px;
+        top: 43px;
+
+    }
+
+    .navbar {
+        display: inline block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: orange;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 153px 88px;
+        padding: 60px 49px;
+        width: 39%;
+        border-radius: 22px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 371px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 17px;
+        border-radius: 21px;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: 17px auto;
+    }
+    
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym pics/logo.png" alt="">
+            <div>Never Give Up</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Bangalore now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact No">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+   
+       
+    </footer>
+</body>
+
+</html>
