@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('pictures/back.jpg');
+        background-repeat: no-repeat;
+
+    }
+
+    .left {
+        display: inline-block;
+        /*border: 2px solid red;*/
+        position: absolute;
+        left: 50px;
+        top: 20px;
+    }
+
+    .center {
+        display: block;
+        margin: 44px auto;
+        width: 50%;
+        /*border: 2px solid green;*/
+
+    }
+
+    .left img {
+        width: 134px;
+        filter: invert(100%);
+
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .right {
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+        position: absolute;
+        right: 34px;
+        top: 43px;
+
+    }
+
+    .navbar {
+        display: inline block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: orange;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        font-family: 'Baloo Bhai', cursive;
+        border: 2px solid white;
+        margin: 153px 88px;
+        padding: 60px 49px;
+        width: 39%;
+        border-radius: 22px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 371px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 17px;
+        border-radius: 21px;
+    }
+
+    .form-group h3 {
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    .container button {
+        display: block;
+        width: 77%;
+        margin: 17px auto;
+    }
+    .high{
+        font-size: 17px;
+        color: aliceblue;
+        background-color:#ffb40c2b;
+        border: 2px solid yellow;
+    display: block;
+    width: fit-content;
+    padding: 2px 2px;
+    position: absolute;
+    top: 147px;
+    margin: 165px 2px;
+    font-family: 'Baloo Bhai', cursive;
+    }
+    .low{ 
+        font-size: 17px;
+        background-color:#ffb40c2b;
+        color: aliceblue;
+        border: 2px solid yellow;
+        display: block;
+        width: fit-content;
+        position: absolute;
+        top: 240px;
+        padding: 2px 2px;
+        margin: 279px 2px;
+        font-family: 'Baloo Bhai', cursive;
+    font-family: 'Baloo Bhai', cursive;
+    }
+    .tag1{
+        color:#00f16b;
+        border: 2px solid yellow;
+        display: block;
+        position: absolute;
+        top: 241px;
+        width: fit-content;
+        padding: 2px 2px;
+        margin: 2px 2px;
+        font-family: 'Baloo Bhai', cursive;
+    }
+    .tag2{
+        color:#00f16b;
+        border: 2px solid yellow;
+    display: block;
+    position: absolute;
+    top: 472px;
+    width: fit-content;
+    padding: 2px 2px;
+    margin: -19px 2px;
+    font-family: 'Baloo Bhai', cursive;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="pictures/logo.png" alt="">
+            <div>Never Give Up</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="fitnesscalc.html">Fitness Calculator</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div ><h2 class="tag1">About Our Gym</h2></div>
+        <div>
+         <p class="high">
+            Our gym is a welcoming and inclusive space for individuals of all fitness levels to pursue their health and wellness goals. With top-of-the-line exercise equipment, dedicated personal trainers, and a variety of group fitness classes, we provide our members with the tools and support they need to achieve their desired results. Our focus on community and accountability creates a positive and motivational atmosphere that inspires our members to push themselves to their limits and become the best versions of themselves.
+         </p>
+        </div>
+        <div><h2 class="tag2">Benefits Of Joining Our Gym:</h2></div>
+        <div class="low">
+            <ul>
+                <li>Improved physical health and fitness through regular exercise</li>
+                <li>Access to top-quality exercise equipment and amenities</li>
+                <li>Personalized support and guidance from certified personal trainers</li>
+                <li>A sense of community and accountability through group fitness classes and workout partners</li>
+                <li>Opportunities to meet new people and socialize with like-minded individuals</li>
+                <li>Reduced stress and improved mental health through regular exercise</li>
+                <li>Increased energy levels and overall sense of well-being</li>
+                <li>Opportunities to set and achieve fitness goals and track progress over time</li>
+                <li>Potential weight loss and improved body composition through regular exercise and proper nutrition</li>
+                <li>Improved self-confidence and body image.</li>
+            </ul>
+        </div>
+        
+</body>
+
+
+</html>
