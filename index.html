@@ -1,188 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>footer</title>
+    <title>Fitness</title>
+
 </head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="css/style.css">
+
 <style>
-.foot img{
-    width: 76px;
-    margin: -25px 29px;
-    padding: 2px 22px;
-  
-
-}
-
-
-
-.foot div{
+    /*css reset*/
+    body {
         font-family: 'Baloo Bhai', cursive;
-    border: 2px solid black;
-    position: absolute;
-    width: 100%;
-    padding: 64px 31px;
-    margin: 214px -61px;
-    height: 23px;
-    background-color: beige;
-    background-clip:padding-box
-}
-.foot img:hover{
-    background-color: gray;
-}
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym pics/back.jpg');
+        background-repeat: no-repeat;
+    }
 
-body{
-    font-family: 'Baloo Bhai', cursive;
-    margin: 0%;
-    background: url('pictures/back.jpg');
-    background-repeat: no-repeat;
-    padding: 0%;
-    
-}
-.foot .co{
-    
-        display: block;
+    .left {
+        display: inline-block;
+         /*border: 2px solid red;*/ 
         position: absolute;
-        right: 99px;
-        width: 293px;
-        margin: -17px -25px;
-        padding: 3px 4px;
-}
-.left {
-    display: inline-block;
-     /*border: 2px solid red;*/ 
-    position: absolute;
-    left: 50px;
-    top: 20px;
-    color: white;
-}
+        left: 50px;
+        top: 20px;
+    }
 
-.center {
-    display: block;
-    margin: 44px auto;
-    width: 50%;
-     /*border: 2px solid green;*/ 
+    .center {
+        display: block;
+        margin: 44px auto;
+        width: 50%;
+         /*border: 2px solid green;*/ 
 
-}
+    }
 
-.left img {
-    width: 134px;
-    filter: invert(100%);
+    .left img {
+        width: 134px;
+        filter: invert(100%);
 
 
-}
+    }
 
-.left div {
-    text-align: center;
-    font-size: 24px;
-    line-height: 26px;
-}
+    .left div {
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
 
-.right {
-    display: inline-block;
-    /*border: 2px solid yellow;*/ 
-    position: absolute;
-    right: 34px;
-    top: 43px;
+    .right {
+        display: inline-block;
+        /*border: 2px solid yellow;*/ 
+        position: absolute;
+        right: 34px;
+        top: 43px;
 
-}
+    }
 
-.navbar {
-    font-family: 'Baloo Bhai', cursive;
-    display: inline block;
-}
+    .navbar {
+        display: inline block;
+    }
 
-.navbar li {
-    font-family: 'Baloo Bhai', cursive;
-    display: inline-block;
-}
+    .navbar li {
+        display: inline-block;
+    }
 
-.navbar li a {
-    font-family: 'Baloo Bhai', cursive;
+    .navbar li a {
 
-    color: white;
-    text-decoration: none;
-    padding: 34px 23px;
-    font-size: 20px;
-}
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 20px;
+    }
 
-.navbar li a:hover {
-    text-decoration: underline;
-    color: gray;
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
 
 
-}
+    }
 
-.btn {
-    font-family: 'Baloo Bhai', cursive;
-    margin: 0px 9px;
-    color: white;
-    background-color: orange;
-    padding: 4px 14px;
-    border: 2px solid gray;
-    border-radius: 10px;
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: orange;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
 
-    cursor: pointer;
-}
+        cursor: pointer;
+    }
 
-.btn:hover {
-    background-color: gray;
-}
-.body{
-       font-family: 'Baloo Bhai', cursive;
-    position: absolute;
-    width: 1253px;
-    bottom: -216px;
-    padding: 23px 23px;
-    display: block;
-    margin: 12px 23px;
-}
-.body2{
-    font-family: 'Baloo Bhai', cursive;
-    position: absolute;
-    width: 494px;
-    bottom: -45px;
-    padding: 23px 23px;
-    display: block;
-    margin: 44px 733px;
-}
-.body  h3{        font-family: 'Baloo Bhai', cursive;
-    color: white;
-    padding: 23px 23px;
-    display: block;
-    margin: auto ;
-}
-.foot h3{        
-    color: black;
-}
- .local a:hover{
-    font-family: 'Baloo Bhai', cursive;
-    color:orange;
-}
-.local a{        font-family: 'Baloo Bhai', cursive;
-    color: white;
+    .btn:hover {
+        background-color: gray;
+    }
 
-}
-.body li:hover{
-    font-family: 'Baloo Bhai', cursive;
-    color: white;
-}
+    .container {
+        border: 2px solid white;
+        margin: 153px 88px;
+        padding: 60px 49px;
+        width: 39%;
+        border-radius: 22px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 371px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 17px;
+        border-radius: 21px;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: 17px auto;
+    }
+    
+
 </style>
+
 <body>
     <header class="header">
         <!-- left box for logo -->
         <div class="left">
-            <img src="pictures/logo.png" alt="">
+            <img src="gym pics/logo.png" alt="">
             <div>Never Give Up</div>
         </div>
         <!-- mid box for nav bar -->
         <div class="center">
             <ul class="navbar">
-                <li><a href="index .html" class="active">Home</a></li>
+                <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
             </ul>
         </div>
         <!-- right box for button -->
@@ -191,51 +150,33 @@ body{
             <button class="btn">Email Us</button>
         </div>
     </header>
-    
-    <div class="body">
-        <h3>Apart From Bangalore We Are Availabe At india</h3>
-        <div >
-            <ul class="local" >
-                <li><a href="#" >Gyms in Mumbai</a></li>
-                <li><a href="#">Gyms in Delhi</a></li>
-                <li><a href="#">Gyms in Pune</a></li>
-                <li><a href="#">Gyms in Hyderabad</a></li>
-                <li><a href="#">Gyms in Chennai</a></li>
-                <li><a href="#">Gyms in Jaipur</a></li>
-                <li><a href="#">Gyms in Kolkata</a></li>
-                <li><a href="#">Gyms in Ahmedabad</a></li>
-                <li><a href="#">Gyms in Chandigarh</a></li>
-                <li><a href="#">Gyms in Kerala</a></li>
-            </ul>
+    <div class="container">
+        <h1>Join the best gym of Bangalore now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact No">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
     </div>
-    <div class="body2">
-        <h3>In Bangalore We Are Available At</h3>
-        <ul class="local">
-            <li><a href="#" >Gyms in ulsoor</a></li>
-            <li><a href="#">Gyms in Hal</a></li>
-            <li><a href="#">Gyms in KR puram</a></li>
-            <li><a href="#">Gyms in Mg Road</a></li>
-            <li><a href="#">Gyms in Tin Factory</a></li>
-            <li><a href="#">Gyms in Hebbal</a></li>
-            <li><a href="#">Gyms in Ramurthy Nagar</a></li>
-            <li><a href="#">Gyms in Yelanka</a></li>
-            <li><a href="#">Gyms in Majestic</a></li>
-            <li><a href="#">Gyms in Market</a></li>
-        </ul>
-</div>
-    
-     <footer class="foot">
-        <div >
-            <h3 class="co">© Never Ever Give Up Pvt Ltd 2023</h3>
-            
-            <img src="pictures /icon1.png" alt="">
+   
        
-            <img src="pictures/icon2.png" alt="">
-            <img src="pictures/icon3.png" alt="">
-            <img  src="pictures/icon5.png" alt="">
-            <img  src="pictures/whatsapp.png" alt="">
-
-        </div>
-
+    </footer>
 </body>
+
 </html>
